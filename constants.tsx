@@ -198,9 +198,8 @@ export const TESTIMONIALS = [
   }
 ];
 
+import heroIcon from '@assets/images/hero-icon.png';
+
 export const ROCKET_LOGO = (
-  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10">
-    <path d="M13.5 3L11.5 5L12.5 7L10.5 9L11.5 11L9.5 13L4.5 12.5L2 15L6.5 16.5L8 21L10.5 18.5L10 13.5L12 11.5L14 12.5L16 10.5L18 11.5L21.5 7.5C21.5 7.5 22 2.5 21 2C20.5 1 15.5 1.5 15.5 1.5L11.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-    <path d="M7 16L3 20M5 14L2 17M10 17L7 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-  </svg>
+  <img src={heroIcon} alt="Hero Icon" className="w-10 h-10" />
 );
