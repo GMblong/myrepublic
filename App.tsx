@@ -1,5 +1,6 @@
 
 import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Pricing from './components/Pricing';
@@ -12,8 +13,9 @@ import Entertainment from './components/Entertainment';
 import PackageComparison from './components/PackageComparison';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import NotFound from './components/NotFound';
 
-const App: React.FC = () => {
+const MainLayout: React.FC = () => {
   useEffect(() => {
     const observerOptions = {
       threshold: 0.1,
@@ -131,6 +133,17 @@ const App: React.FC = () => {
       
       <Footer />
     </div>
+  );
+};
+
+const App: React.FC = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainLayout />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 };
 
