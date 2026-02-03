@@ -2,7 +2,7 @@
 import React from 'react';
 import logoSinarmas from '@assets/images/logo-sinarmas.png';
 import { ROCKET_LOGO, FOOTER_LOGO, getRegistrationWhatsAppLink, WHATSAPP_BASE_URL } from '../constants';
-import { Facebook, Twitter, Instagram, Youtube, MessageCircle, ArrowRight } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Youtube, Linkedin, MessageCircle, ArrowRight } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -42,8 +42,14 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="flex justify-center md:justify-start gap-4">
-              {[Facebook, Instagram, Twitter, Youtube].map((Icon, idx) => (
-                <a key={idx} href="#" className="w-12 h-12 border-2 border-white/10 flex items-center justify-center hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all rounded-xl">
+              {[
+                { Icon: Facebook, href: 'https://www.facebook.com/your-page' },
+                { Icon: Instagram, href: 'https://www.instagram.com/your-profile' },
+                { Icon: Twitter, href: 'https://www.twitter.com/your-handle' },
+                { Icon: Youtube, href: 'https://www.youtube.com/your-channel' },
+                { Icon: Linkedin, href: 'https://www.linkedin.com/your-profile' }
+              ].map(({ Icon, href }, idx) => (
+                <a key={idx} href={href} target="_blank" rel="noopener noreferrer" className="w-12 h-12 border-2 border-white/10 flex items-center justify-center hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all rounded-xl">
                   <Icon size={20} />
                 </a>
               ))}
