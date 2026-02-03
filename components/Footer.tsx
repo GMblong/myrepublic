@@ -1,7 +1,7 @@
 
 import React from 'react';
 import logoSinarmas from '@assets/images/logo-sinarmas.png';
-import { ROCKET_LOGO, getRegistrationWhatsAppLink, WHATSAPP_BASE_URL } from '../constants';
+import { ROCKET_LOGO, FOOTER_LOGO, getRegistrationWhatsAppLink, WHATSAPP_BASE_URL } from '../constants';
 import { Facebook, Twitter, Instagram, Youtube, MessageCircle, ArrowRight } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -30,8 +30,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-12 mb-16 text-center md:text-left">
           <div className="max-w-sm">
             <div className="flex items-center justify-center md:justify-start gap-2 mb-8">
-              <div className="text-orange-500">{ROCKET_LOGO}</div>
-              <span className="text-3xl font-black tracking-tighter uppercase">MYREPUBLIC</span>
+              <div className="text-orange-500">{FOOTER_LOGO}</div>
             </div>
             <p className="text-slate-400 text-lg mb-8 font-bold">
               Pelopor internet fiber optik simetris 1:1 di Indonesia. Kecepatan tanpa batas, tanpa FUP.

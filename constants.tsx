@@ -199,7 +199,12 @@ export const TESTIMONIALS = [
 ];
 
 import heroIcon from '@assets/images/hero-icon.png';
+import logoMenu from '@assets/images/logo-menu.png';
 
 export const ROCKET_LOGO = (
   <img src={heroIcon} alt="Hero Icon" className="w-10 h-10" />
+);
+
+export const FOOTER_LOGO = (
+  <img src={logoMenu} alt="MyRepublic Logo" className="w-48 [filter:drop-shadow(0_2px_0_white)_drop-shadow(0_-2px_0_white)_drop-shadow(2px_0_0_white)_drop-shadow(-2px_0_0_white)]" />
 );
