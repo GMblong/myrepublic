@@ -3,6 +3,8 @@ import React from 'react';
 import { ROCKET_LOGO, getRegistrationWhatsAppLink } from '../constants';
 import { ChevronDown, Gift, Wifi, Zap, Star } from 'lucide-react';
 
+import heroIcon from '@assets/images/hero-icon.png';
+
 const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center bg-[#702283] pt-32 pb-16 overflow-hidden pattern-bg">
@@ -24,7 +26,7 @@ const Hero: React.FC = () => {
             </h1>
             
             <p className="text-lg md:text-2xl text-purple-100 max-w-xl mb-12 font-medium leading-tight opacity-90">
-              Promo Special Januari: Harga Flat 12 Bulan, Sudah Termasuk PPN, dan <span className="text-orange-400 font-black italic underline decoration-2">BEBAS</span> Biaya Tambahan!
+              Promo Special 2026: Harga Flat 12 Bulan, Sudah Termasuk PPN, dan <span className="text-orange-400 font-black italic underline decoration-2">BEBAS</span> Biaya Tambahan!
             </p>
 
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 md:gap-6 relative">
@@ -42,7 +44,7 @@ const Hero: React.FC = () => {
                 className="w-full sm:w-auto bg-orange-500 text-white px-8 md:px-10 py-5 md:py-6 font-black text-lg md:text-xl shadow-brutal border-2 border-black hover:bg-white hover:text-[#702283] transition-all flex items-center justify-center gap-3 uppercase group"
               >
                 Langganan Sekarang 
-                <Zap className="group-hover:translate-x-1 transition-transform" />
+                <img src={heroIcon} alt="Hero Icon" className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </a>
               <div className="w-full sm:w-auto bg-white/5 backdrop-blur-xl border-2 border-white/20 text-white px-8 md:px-10 py-5 md:py-6 font-black text-lg md:text-xl flex items-center justify-center gap-3">
                 <Wifi className="text-orange-500" /> 100% FIBER

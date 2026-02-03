@@ -30,7 +30,7 @@ const Pricing: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-center text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-600 px-4 py-2 rounded-full font-black text-xs tracking-widest uppercase mb-6 border border-orange-200">
-            <Timer size={14} /> Penawaran Terbatas Januari 2024
+            <Timer size={14} /> Penawaran Terbatas Tahun 2026
           </div>
           <h2 className="text-4xl md:text-7xl font-heading text-slate-900 leading-none mb-12">
             PROMO <span className="text-brand-purple">PAKET</span> WIFI
