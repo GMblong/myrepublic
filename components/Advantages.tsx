@@ -13,9 +13,9 @@ const Advantages: React.FC = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="mb-20 flex flex-col md:flex-row md:items-end justify-between gap-8">
           <div>
-            <h3 className="text-5xl md:text-8xl font-heading text-slate-900 leading-[0.85] tracking-tighter mb-4">
+            <h2 className="text-5xl md:text-8xl font-heading text-slate-900 leading-[0.85] tracking-tighter mb-4">
               MENGAPA <br /> <span className="text-[#702283]">KAMI?</span>
-            </h3>
+            </h2>
             <div className="h-4 w-48 bg-orange-500"></div>
           </div>
           <p className="text-slate-500 text-xl font-bold max-w-md leading-tight uppercase tracking-tighter italic">

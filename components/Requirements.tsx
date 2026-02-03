@@ -9,11 +9,11 @@ const Requirements: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           <div className="lg:w-1/2 lg:sticky lg:top-32">
-            <h2 className="text-[#702283] font-black text-lg uppercase tracking-widest mb-4 tracking-tighter">Onboarding</h2>
-            <h3 className="text-5xl md:text-7xl font-black text-slate-900 mb-8 leading-tight tracking-tighter uppercase">
+            <p className="text-[#702283] font-black text-lg uppercase tracking-widest mb-4 tracking-tighter">Onboarding</p>
+            <h2 className="text-5xl md:text-7xl font-black text-slate-900 mb-8 leading-tight tracking-tighter uppercase">
               Syarat <br />
               <span className="text-orange-500">Pendaftaran.</span>
-            </h3>
+            </h2>
             <p className="text-slate-500 text-xl mb-10 leading-relaxed max-w-lg font-bold">
               Proses pendaftaran sangat praktis. Cukup kirimkan data berikut melalui WhatsApp untuk verifikasi area dan instalasi.
             </p>

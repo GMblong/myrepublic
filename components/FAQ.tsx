@@ -10,9 +10,9 @@ const FAQ: React.FC = () => {
     <section className="py-24 bg-slate-50">
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="text-center mb-16">
-          <h3 className="text-4xl md:text-6xl font-heading text-slate-900 leading-none mb-6">
+          <h2 className="text-4xl md:text-6xl font-heading text-slate-900 leading-none mb-6">
             PERTANYAAN <span className="text-[#702283]">POPULER</span>
-          </h3>
+          </h2>
           <p className="text-slate-500 font-bold text-lg uppercase tracking-widest">Seputar Layanan MyRepublic</p>
         </div>
 

@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="bg-[#702283] p-12 md:p-20 text-center mb-20 relative overflow-hidden border-4 border-slate-900 rounded-[3rem] shadow-brutal-white">
           <div className="absolute top-0 left-0 w-full h-full opacity-10 pattern-bg pointer-events-none"></div>
-          <h3 className="text-4xl md:text-7xl font-black text-white mb-8 relative z-10 tracking-tighter uppercase leading-none">
+          <h2 className="text-4xl md:text-7xl font-black text-white mb-8 relative z-10 tracking-tighter uppercase leading-none">
             SIAP UNTUK <br /><span className="text-orange-500">ROKET FAST</span> WIFI?
-          </h3>
+          </h2>
           <p className="text-white text-xl md:text-3xl max-w-2xl mx-auto mb-12 relative z-10 font-black opacity-90 uppercase">
              PROMO FLAT 12 BULAN TERBATAS!
           </p>

@@ -8,9 +8,9 @@ const HowToSubscribe: React.FC = () => {
     <section className="py-24 bg-white relative">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
-          <h3 className="text-4xl md:text-7xl font-heading text-slate-900 leading-none mb-6">
+          <h2 className="text-4xl md:text-7xl font-heading text-slate-900 leading-none mb-6">
             ALUR <span className="text-[#702283]">DAFTAR</span>
-          </h3>
+          </h2>
           <p className="text-slate-500 font-bold text-lg uppercase tracking-widest">Cepat, Mudah, dan Tanpa Ribet</p>
         </div>
 

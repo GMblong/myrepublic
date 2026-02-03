@@ -16,9 +16,9 @@ const Testimonials: React.FC = () => {
                 <Star key={i} size={24} className="text-orange-500 fill-orange-500" />
              ))}
           </div>
-          <h3 className="text-4xl md:text-7xl font-heading text-white leading-none mb-6">
+          <h2 className="text-4xl md:text-7xl font-heading text-white leading-none mb-6">
             KATA <span className="text-orange-500">MEREKA</span>
-          </h3>
+          </h2>
           <p className="text-purple-200 font-bold text-lg uppercase tracking-widest max-w-xl mx-auto">Telah Dipercaya Ribuan Rumah di Indonesia untuk Menunjang Aktivitas Digital</p>
         </div>
 

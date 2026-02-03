@@ -13,9 +13,9 @@ const Entertainment: React.FC = () => {
             <div className="inline-flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-lg font-black text-xs uppercase tracking-widest mb-8">
               <Sparkles size={16} /> Exclusive Partnership
             </div>
-            <h3 className="text-5xl md:text-8xl font-heading leading-[0.85] tracking-tighter mb-8">
+            <h2 className="text-5xl md:text-8xl font-heading leading-[0.85] tracking-tighter mb-8">
               HIBURAN <br /> <span className="text-red-600">TANPA BATAS</span>
-            </h3>
+            </h2>
             <p className="text-slate-400 text-xl font-bold leading-relaxed mb-10 max-w-xl">
               Dapatkan akses gratis <span className="text-white">Vidio Platinum</span> untuk setiap langganan paket PRIME ke atas. Nikmati ribuan film, series, dan pertandingan bola live dalam kualitas 4K.
             </p>

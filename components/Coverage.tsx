@@ -14,9 +14,9 @@ const Coverage: React.FC = () => {
             <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-lg font-black text-xs uppercase tracking-[0.2em] mb-8 text-orange-500">
               <Globe size={16} /> Jangkauan Nasional
             </div>
-            <h3 className="text-5xl md:text-8xl font-heading text-white leading-[0.85] tracking-tighter mb-8 uppercase">
+            <h2 className="text-5xl md:text-8xl font-heading text-white leading-[0.85] tracking-tighter mb-8 uppercase">
               CEK <span className="text-orange-500">AREA</span> <br /> COVERAGE
-            </h3>
+            </h2>
             <p className="text-slate-400 text-xl font-bold leading-relaxed uppercase tracking-tighter">
               Tim kami siap membantu pengecekan titik kabel Full Fiber Optic di lokasi Anda. Klik tombol di bawah untuk cek detail alamat.
             </p>
