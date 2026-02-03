@@ -92,41 +92,41 @@ const App: React.FC = () => {
       <main>
         <Hero />
         
-        <div id="packages" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700">
+        <section id="packages" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700">
           <Pricing />
-        </div>
+        </section>
 
-        <div id="comparison" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
+        <section id="comparison" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
           <PackageComparison />
-        </div>
+        </section>
         
-        <div id="benefits" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
+        <section id="benefits" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
           <Advantages />
-        </div>
+        </section>
 
-        <div id="how-to" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
+        <section id="how-to" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
           <HowToSubscribe />
-        </div>
+        </section>
 
-        <div id="entertainment" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
+        <section id="entertainment" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
           <Entertainment />
-        </div>
+        </section>
 
-        <div id="testimonials" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
+        <section id="testimonials" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
           <Testimonials />
-        </div>
+        </section>
         
-        <div id="coverage" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
+        <section id="coverage" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
           <Coverage />
-        </div>
+        </section>
 
-        <div id="requirements" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
+        <section id="requirements" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
           <Requirements />
-        </div>
+        </section>
 
-        <div id="faq" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
+        <section id="faq" className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-75">
           <FAQ />
-        </div>
+        </section>
       </main>
       
       <Footer />
