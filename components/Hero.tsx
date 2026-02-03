@@ -25,7 +25,9 @@ const Hero: React.FC = () => {
               TANPA FUP
             </h1>
             
-            <p className="text-lg md:text-2xl text-purple-100 max-w-xl mb-12 font-medium leading-tight opacity-90">
+            <p className="mt-4 text-lg md:text-xl text-white/80 max-w-3xl">
+              Daftar sekarang dan nikmati koneaksi internet super cepat dan stabil untuk semua kebutuhan digitalmu.
+              <br />
               Promo Special 2026: Harga Flat 12 Bulan, Sudah Termasuk PPN, dan <span className="text-orange-400 font-black italic underline decoration-2">BEBAS</span> Biaya Tambahan!
             </p>
 

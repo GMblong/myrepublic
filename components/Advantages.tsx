@@ -19,7 +19,7 @@ const Advantages: React.FC = () => {
             <div className="h-4 w-48 bg-orange-500"></div>
           </div>
           <p className="text-slate-500 text-xl font-bold max-w-md leading-tight uppercase tracking-tighter italic">
-            Internet bukan sekadar kencang, tapi harus stabil dan benar-benar tanpa batas kuota.
+            Internet bukan sekadar kencang, tapi harus stabil dan benar-benar tanpa batas kuota. Daftar sekarang untuk paket terbaik.
           </p>
         </div>
 

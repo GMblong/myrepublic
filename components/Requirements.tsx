@@ -15,7 +15,7 @@ const Requirements: React.FC = () => {
               <span className="text-orange-500">Pendaftaran.</span>
             </h2>
             <p className="text-slate-500 text-xl mb-10 leading-relaxed max-w-lg font-bold">
-              Proses pendaftaran sangat praktis. Cukup kirimkan data berikut melalui WhatsApp untuk verifikasi area dan instalasi.
+              Proses pendaftaran paket internet MyRepublic sangat praktis. Cukup kirimkan data berikut melalui WhatsApp untuk verifikasi area dan instalasi.
             </p>
             
             <div className="bg-slate-900 p-10 rounded-[2.5rem] shadow-2xl relative overflow-hidden group border-4 border-[#702283]">

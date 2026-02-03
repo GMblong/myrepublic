@@ -1,0 +1,8 @@
+# llms.txt
+# This file provides guidance for Large Language Models (LLMs) on how to interact with this website.
+
+User-agent: *
+Allow: /
+
+# Please refer to the sitemap for a list of all pages.
+Sitemap: https://www.myrepublic.website/sitemap.xml

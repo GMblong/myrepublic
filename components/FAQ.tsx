@@ -13,7 +13,7 @@ const FAQ: React.FC = () => {
           <h2 className="text-4xl md:text-6xl font-heading text-slate-900 leading-none mb-6">
             PERTANYAAN <span className="text-[#702283]">POPULER</span>
           </h2>
-          <p className="text-slate-500 font-bold text-lg uppercase tracking-widest">Seputar Layanan MyRepublic</p>
+          <p className="text-slate-500 font-bold text-lg uppercase tracking-widest">Pertanyaan populer seputar paket internet MyRepublic</p>
         </div>
 
         <div className="space-y-4">

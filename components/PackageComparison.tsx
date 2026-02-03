@@ -25,7 +25,7 @@ const PackageComparison: React.FC = () => {
           <h2 className="text-4xl md:text-7xl font-heading text-slate-900 leading-none mb-6">
             BANDINGKAN <span className="text-brand-purple">PAKET</span>
           </h2>
-          <p className="text-slate-500 font-bold text-lg uppercase tracking-widest">Temukan yang paling pas untuk kebutuhan Anda</p>
+          <p className="text-slate-500 font-bold text-lg uppercase tracking-widest">Bandingkan paket internet yang tersedia dan temukan yang paling pas untuk kebutuhan Anda</p>
         </div>
 
         <div className="overflow-x-auto pb-8">

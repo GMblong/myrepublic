@@ -17,7 +17,7 @@ const Entertainment: React.FC = () => {
               HIBURAN <br /> <span className="text-red-600">TANPA BATAS</span>
             </h2>
             <p className="text-slate-400 text-xl font-bold leading-relaxed mb-10 max-w-xl">
-              Dapatkan akses gratis <span className="text-white">Vidio Platinum</span> untuk setiap langganan paket PRIME ke atas. Nikmati ribuan film, series, dan pertandingan bola live dalam kualitas 4K.
+              Daftar sekarang dan dapatkan akses gratis <span className="text-white">Vidio Platinum</span> untuk setiap langganan paket PRIME ke atas. Nikmati ribuan film, series, dan pertandingan bola live dalam kualitas 4K.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
