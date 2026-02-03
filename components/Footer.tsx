@@ -1,5 +1,6 @@
 
 import React from 'react';
+import logoSinarmas from '@assets/images/logo-sinarmas.png';
 import { ROCKET_LOGO, getRegistrationWhatsAppLink, WHATSAPP_BASE_URL } from '../constants';
 import { Facebook, Twitter, Instagram, Youtube, MessageCircle, ArrowRight } from 'lucide-react';
 
@@ -38,9 +39,7 @@ const Footer: React.FC = () => {
             
             <div className="inline-flex items-center gap-3 bg-white px-6 py-3 rounded-xl mb-8 border-2 border-slate-700">
                <span className="text-slate-400 text-[10px] font-black uppercase tracking-widest">Member of</span>
-               <div className="flex items-center gap-1 font-black text-slate-900">
-                  <span className="text-red-600 uppercase">Sinar</span>mas
-               </div>
+               <img src={logoSinarmas} alt="Sinarmas Logo" className="h-4" />
             </div>
 
             <div className="flex justify-center md:justify-start gap-4">
