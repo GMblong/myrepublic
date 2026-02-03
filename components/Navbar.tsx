@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { ROCKET_LOGO, getRegistrationWhatsAppLink } from '../constants';
+import logoMenu from '@assets/images/logo-menu.png';
+import { getRegistrationWhatsAppLink } from '../constants';
 import { Menu, X, ChevronRight } from 'lucide-react';
 
 const Navbar: React.FC = () => {
@@ -70,16 +71,7 @@ const Navbar: React.FC = () => {
             onClick={(e) => { e.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); }}
             className="flex items-center gap-2 group cursor-pointer z-50"
           >
-            <div className={`transition-all duration-300 transform group-hover:rotate-12 ${
-              isScrolled ? 'text-[#702283] scale-90' : 'text-orange-500 scale-100'
-            }`}>
-              {ROCKET_LOGO}
-            </div>
-            <span className={`text-xl md:text-2xl font-black tracking-tighter transition-colors duration-300 ${
-              isScrolled ? 'text-slate-900' : 'text-white'
-            }`}>
-              MYREPUBLIC
-            </span>
+            <img src={logoMenu} alt="MyRepublic Logo" className={`transition-all duration-300 ${isScrolled ? 'w-48 [filter:drop-shadow(0_1px_0_white)_drop-shadow(0_-1px_0_white)_drop-shadow(1px_0_0_white)_drop-shadow(-1px_0_0_white)]' : 'w-48 [filter:drop-shadow(0_2px_0_white)_drop-shadow(0_-2px_0_white)_drop-shadow(2px_0_0_white)_drop-shadow(-2px_0_0_white)]'}`} />
           </a>
 
           {/* Desktop Navigation */}
