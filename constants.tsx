@@ -64,31 +64,31 @@ export const ADVANTAGES: AdvantageItem[] = [
     id: 'simetris',
     title: 'Internet Simetris 1:1',
     description: 'Kecepatan UPLOAD & DOWNLOAD seimbang untuk performa maksimal.',
-    icon: <Activity className="w-8 h-8" />,
+    icon: <Activity className="w-8 h-8" aria-label="Internet Simetris 1:1" />,
   },
   {
     id: 'unlimited',
     title: 'Tanpa Batasan Kuota',
     description: 'Benar-benar UNLIMITED tanpa FUP (Fair Usage Policy).',
-    icon: <Infinity className="w-8 h-8" />,
+    icon: <Infinity className="w-8 h-8" aria-label="Tanpa Batasan Kuota" />,
   },
   {
     id: 'fiber',
     title: 'Tahan Cuaca Ekstrim',
     description: 'Teknologi 100% Full Fiber Optic yang stabil di segala kondisi.',
-    icon: <CloudLightning className="w-8 h-8" />,
+    icon: <CloudLightning className="w-8 h-8" aria-label="Tahan Cuaca Ekstrim" />,
   },
   {
     id: 'affordable',
     title: 'Harga Terjangkau',
     description: 'Harga kompetitif dengan kualitas internet kelas dunia.',
-    icon: <DollarSign className="w-8 h-8" />,
+    icon: <DollarSign className="w-8 h-8" aria-label="Harga Terjangkau" />,
   },
   {
     id: 'stable',
     title: 'Internet Stabil',
     description: 'Koneksi handal untuk gaming, streaming, dan kerja tanpa putus.',
-    icon: <Shield className="w-8 h-8" />,
+    icon: <Shield className="w-8 h-8" aria-label="Internet Stabil" />,
   },
 ];
 
@@ -97,37 +97,37 @@ export const REQUIREMENTS: RequirementItem[] = [
     id: 'ktp',
     title: 'Foto KTP',
     description: 'Foto KTP asli yang masih berlaku untuk verifikasi identitas.',
-    icon: <CreditCard className="w-6 h-6" />,
+    icon: <CreditCard className="w-6 h-6" aria-label="Foto KTP" />,
   },
   {
     id: 'meteran',
     title: 'Meteran Listrik',
     description: 'Foto meteran listrik rumah untuk validasi titik lokasi pemasangan.',
-    icon: <Lightbulb className="w-6 h-6" />,
+    icon: <Lightbulb className="w-6 h-6" aria-label="Meteran Listrik" />,
   },
   {
     id: 'rumah',
     title: 'Foto Rumah',
     description: 'Foto tampak depan rumah untuk memudahkan teknisi menemukan lokasi.',
-    icon: <Home className="w-6 h-6" />,
+    icon: <Home className="w-6 h-6" aria-label="Foto Rumah" />,
   },
   {
     id: 'kontak',
     title: 'No HP Aktif',
     description: 'Nomor WhatsApp dan telepon aktif untuk koordinasi instalasi.',
-    icon: <PhoneCall className="w-6 h-6" />,
+    icon: <PhoneCall className="w-6 h-6" aria-label="No HP Aktif" />,
   },
   {
     id: 'email',
     title: 'Email Aktif',
     description: 'Digunakan untuk pengiriman invoice dan informasi akun MyRepublic.',
-    icon: <Mail className="w-6 h-6" />,
+    icon: <Mail className="w-6 h-6" aria-label="Email Aktif" />,
   },
   {
     id: 'paket',
     title: 'Pilihan Paket',
     description: 'Tentukan paket yang ingin diambil (JET, NEO, VELO, Gamer, dll).',
-    icon: <PackageSearch className="w-6 h-6" />,
+    icon: <PackageSearch className="w-6 h-6" aria-label="Pilihan Paket" />,
   },
 ];
 
@@ -136,19 +136,19 @@ export const STEPS = [
     id: 1,
     title: "Pilih Paket",
     desc: "Pilih paket yang sesuai kebutuhan Anda (Home/Gamer).",
-    icon: <ClipboardCheck className="w-10 h-10" />
+    icon: <ClipboardCheck className="w-10 h-10" aria-label="Pilih Paket" />
   },
   {
     id: 2,
     title: "Kirim Data",
     desc: "Kirim foto KTP, Meteran & Alamat ke Sales via WhatsApp.",
-    icon: <UserCheck className="w-10 h-10" />
+    icon: <UserCheck className="w-10 h-10" aria-label="Kirim Data" />
   },
   {
     id: 3,
     title: "Pemasangan",
     desc: "Teknisi datang melakukan instalasi & internet aktif!",
-    icon: <Wrench className="w-10 h-10" />
+    icon: <Wrench className="w-10 h-10" aria-label="Pemasangan" />
   }
 ];
 
